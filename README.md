@@ -1,46 +1,48 @@
 # Sitemap-Generation-using-Python
 Creating Sitemap Files for a website using Python
 
-## What is Sitemap:
-A sitemap is a file that provides information about pages, images, videos included on your website.
-Sitemaps are used by search engines like Google for efficient crawling.
+<img src="Screenshots/1_UzKrCwQ5jRaBvjV7eaEhJA.png">
 
-There are various sitemap formats such as XML, RSS, Text. XML sitemap format is popularly used and is thus demostrated in further coding cells of this notebook.
+### What is Sitemap:
+A sitemap is a file that provides information about pages, images, videos included on your website.<br>
+Sitemaps are used by search engines like Google for efficient crawling.<br>
 
-## Use of Sitemap:
-A sitemap is used to provide specific information about your website namely, webpages, images on the webpages.
-For example:
-A video sitemap will provide information about the video location, video title, rating and much more.
-An image sitemap will include the location of the images included in a specific webpage.
+There are various sitemap formats such as XML, RSS, Text. XML sitemap format is popularly used and is thus demostrated in this project.<br>
 
-## Types of Sitemap:
-Following are the 3 types of sitemaps used widely:
+### Use of Sitemap:
+A sitemap is used to provide specific information about your website namely, webpages, images on the webpages.<br>
+For example:<br>
+A video sitemap will provide information about the video location, video title, rating and much more.<br>
+An image sitemap will include the location of the images included in a specific webpage.<br>
 
-URL Sitemap (Basic Sitemap that most websites use)
-Image Sitemap
-Video Sitemap
+### Types of Sitemap:
+Following are the 3 types of sitemaps used widely:<br>
 
-## Sample XML Sitemap:
+URL Sitemap (Basic Sitemap that most websites use)<br>
+Image Sitemap<br>
+Video Sitemap<br>
 
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" >
- <url>
-  <loc> http://www.abc.com/ </loc>
-  <lastmod> 2022-09-01 </lastmod>
-  <changefreq> daily </changefreq>
-  <priority> 0.9 </priority>
- </url>
-</urlset>
+### Sample XML Sitemap:
 
-## Contents of the Project:
+\<?xml version="1.0" encoding="UTF-8"?><br>
+\<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><br>
+    &emsp;\<url><br>
+        &emsp;&emsp;\<loc> http://www.abc.com/ \</loc><br>
+        &emsp;&emsp;\<lastmod> 2022-09-01 \</lastmod><br>
+        &emsp;&emsp;\<changefreq> daily \</changefreq><br>
+        &emsp;&emsp;\<priority> 0.9 \</priority>  <br>
+    &emsp;\</url><br>
+\</urlset>
 
-Sitemap-Generation.ipynb: It is a Jupyter Notebook that explains how you can construct a basic sitemap for website and other sitemap variants as well. For demonstration, we have crawled Udemy homepage and constructed sitemap files using the URLs.
+### Contents of the Project:
 
-Sample Sitemap Files: This folder contains all the generated sitemap files, when the above notebook is run.
+Sitemap-Generation.ipynb: It is a Jupyter Notebook that explains how you can construct a basic sitemap for website and other sitemap variants as well. For demonstration, we have crawled Udemy homepage and constructed sitemap files using the URLs.<br>
 
-robots.txt: It is a file in which sitemap / sitemap index file path needs to be mentioned in order to let the crawler know he location.
+Sample Sitemap Files: This folder contains all the generated sitemap files, when the above notebook is run.<br>
 
-Screenshots: This folder contains snaps of robots.txt how one can include the sitemap file paths.
+robots.txt: It is a file in which sitemap / sitemap index file path needs to be mentioned in order to let the crawler know he location.<br>
+
+Screenshots: This folder contains snaps of sitemap file and sitemap_index file generated through the program. It also contains snaps of robots.txt in which how one can include the sitemap file paths.<br>
 
 To access the Sitemap Generation code, click <a href="https://github.com/shalaka-thorat/Sitemap-Generation-using-Python/blob/main/Sitemap-Generation.ipynb">Here</a>
     
