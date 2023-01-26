@@ -53,6 +53,6 @@ To access the Sitemap Generation code, click <a href="https://github.com/shalaka
 3) Image Sitemap: https://developers.google.com/search/docs/crawling-indexing/sitemaps/image-sitemaps
 4) Video Sitemap: https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps
 
-<br><br>
--------------------------------------------------------------------------
-<img src="Screenshots/sitemap_img.jpg">
+## 
+<br>
+<img src="Screenshots/sitemap_img.jpg" height="400" width="600">
