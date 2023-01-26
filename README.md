@@ -55,4 +55,4 @@ To access the Sitemap Generation code, click <a href="https://github.com/shalaka
 
 ## 
 <br>
-<img src="Screenshots/sitemap_img.jpg" height="400" width="600">
+<img src="Screenshots/sitemap_img.jpg" height="300" width="600">
