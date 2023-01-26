@@ -52,3 +52,5 @@ To access the Sitemap Generation code, click <a href="https://github.com/shalaka
 2) Splitting Sitemaps and Constructing Sitemap Index: https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview
 3) Image Sitemap: https://developers.google.com/search/docs/crawling-indexing/sitemaps/image-sitemaps
 4) Video Sitemap: https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps
+
+<img src="Screenshots/sitemap_img.png">
